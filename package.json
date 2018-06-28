@@ -4,10 +4,10 @@
   "main": "index.js",
   "scripts": {
     "compile-css": "node-sass sass/bootstrap-utilities.scss css/bootstrap-utilities.css",
-    "watch-css": "nodemon --ignore js/ --ignore dist/ -e scss -x \"npm run compile-css\"",
+    "watch-css": "nodemon --ignore js/ --ignore dist/ -e scss -x \"npm run compile-css\""
   },
   "devDependencies": {
     "node-sass": "^4.9.0",
-    "nodemon": "^1.17.4",
+    "nodemon": "^1.17.4"
   }
 }
