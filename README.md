@@ -1,6 +1,6 @@
 ## RCSS Bootstrap utilities
 
-A rewrite for bootstrap utilities with RSCSS helpers conventions. 
+A rewrite for [Bootstrap 4 utilities](https://getbootstrap.com/docs/4.1/)  with RSCSS helpers conventions. 
 
 ### Example
 ```
@@ -12,3 +12,8 @@ A rewrite for bootstrap utilities with RSCSS helpers conventions.
 $ npm run compile-css
 ```
 After that, you can copy and use css/bootstrap-utilities.css
+
+
+, and then you can copy and use css/bootstrap-utilities.css
+
+### Spacing
