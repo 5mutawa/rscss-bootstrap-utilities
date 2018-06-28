@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "compile-css": "node-sass sass/bootstrap-utilities.scss css/bootstrap-utilities.css",
+    "compile-css": "node-sass sass/bootstrap-utilities.scss css/bootstrap-utilities.css && node-sass sass/styles.scss css/styles.css",
     "watch-css": "nodemon --ignore js/ --ignore dist/ -e scss -x \"npm run compile-css\""
   },
   "devDependencies": {

@@ -1,0 +1,34 @@
+// Reset
+body { background-color: #eee; font-family: Helvetica, sans-serif; margin: 0; padding-top: 20px; }
+p { margin: 0; }
+h4 { margin: 0 }
+* { box-sizing: border-box; }
+
+// Start: /css/components/repository-card-form.scss
+.repository-card {
+  border: 1px #d1d5da solid !important;
+  padding: 10px;
+  > .title.-green { color: green; }
+  > .descrption { color: #777; }
+  &.-disabled { background-color: #e6e6e6; }
+}
+
+.repository-card-footer {
+  > .item {
+    text-decoration: none;
+    color: #333;
+    &:hover { color: blue; }
+  }
+}
+// End: /css/components/repository-card-form.scss
+
+
+// Layout /css/
+.card-list {
+  display: flex;
+  justify-content: center;
+  .repository-card {
+      margin: 0 10px;
+      width: 300px;
+  }
+}
